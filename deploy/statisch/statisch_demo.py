@@ -345,7 +345,7 @@ class databasechatbot(object):
                 
                 #print(zeit_0)
                 
-                time_dif = ((utc_timestamp_now+3600) - (utc_timestamp_latest))/60  #sommerzeit +7200 winterzeit +3600
+                time_dif = ((utc_timestamp_now+7200) - (utc_timestamp_latest))/60  #sommerzeit +7200 winterzeit +3600
                 
                 #print("difftime")
                 #print(time_dif)
@@ -364,7 +364,7 @@ class databasechatbot(object):
                 
                 
                     
-                if time_dif > 15: #über 15 min
+                if time_dif > 1: #über 15 min
                 
 
                 

@@ -14,13 +14,13 @@ import datetime
 
 import telegram.ext
 from telegram import ReplyKeyboardMarkup
-import pandas as pd
+#import pandas as pd
 
 databaseuser='server_bergnungpython'
 databasepwd='RHlSEVvFAr6kVcFr'
 databasehost="162.55.0.136"#'server.bplaced.net'
 database='server_Beregnung'
-execution_timeout = 20
+execution_timeout = 50
 
 #pathprotopath = "./GPS_Data_to_analyse/errreq.pb"
 
