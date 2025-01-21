@@ -1,0 +1,2 @@
+2025-01-21 20:27:57 [INFO] Initialization complete [in gps_simulation.py:17, <module>]
+2025-01-21 20:27:57 [INFO] start gps simulation [in gps_simulation.py:39, <module>]

@@ -1,0 +1,20 @@
+services:
+  gps_simulation:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Nutzt das Dockerfile, um das Basisimage zu erstellen
+    image: gps_simulation:latest
+    stop_grace_period: 0s
+    ports:
+      - "5003:5003"  # Optional, falls dein Python-Skript einen Webserver oder eine API nutzt
+    expose:
+      - "5003"  # Interner Port für Kommunikation zwischen Containern
+    volumes:
+      - ./gps_simulation.py:/app/gps_simulation.py  # Python-Skript mounten
+      - ./log.txt:/app/log.txt  # Python-Skript mounten
+
+    env_file:
+      - .env
+
+    stdin_open: true  # Ermöglicht interaktiven Modus
+    tty: true         # Benötigt für interaktive Terminals
