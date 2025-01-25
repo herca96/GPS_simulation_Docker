@@ -24,8 +24,11 @@ databasehost = os.getenv("DATABASE_HOST")
 database = os.getenv("DATABASE_NAME")
 execution_timeout = 50
 
-Latarray = [52.38279, 52.382745, 52.382603, 52.382553, 52.382526, 52.382485]
-Lonarray = [10.330706, 10.330296, 10.3297, 10.329196, 10.328746, 10.328196]
+#Latarray = [52.38279, 52.382745, 52.382603, 52.382553, 52.382526, 52.382485]
+#Lonarray = [10.330706, 10.330296, 10.3297, 10.329196, 10.328746, 10.328196]
+
+Latarray = [52.38279]
+Lonarray = [10.330706]
 
 Device = "FHeidmann1"
 Modulname = "Huedig_2"
@@ -72,4 +75,4 @@ while True:
 
     logging.info("Iteration finsihsed")
 
-    time.sleep(1200)  # 20 min
+    #time.sleep(1200)  # 20 min
