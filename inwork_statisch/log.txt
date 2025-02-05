@@ -1,7 +1,0 @@
-21/02/2023 23:31:29 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 07:40:50 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 07:40:53 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 07:40:56 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 07:40:59 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 12:55:15 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
-22/02/2023 18:55:15 dyn2003: Can't connect to MySQL server on '162.55.0.136:3306' (113 No route to host)
